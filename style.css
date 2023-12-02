@@ -1,0 +1,175 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+}
+
+.sidebar{
+    position: fixed;
+    height: fit-content;
+    width: 30vw;
+    background-color: rgb(1,12,20);
+}
+
+.profile{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+#profile-image{
+    border-radius: 20vh;
+    height: 20vh;
+    box-shadow: 0 0 0 5px rgba(255, 255, 255, 0.2);
+}
+
+.text{
+    color: white;
+    font-size: 4vh;
+}
+
+.links{
+    display: flex;
+    justify-content:center;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+#twitter{
+    height: 7vh;
+    width: 4vw;
+    border-radius: 45px;
+}
+
+#facebook{
+    height: 7vh;
+    width: 4vw;
+    border-radius: 1000vh;
+}
+
+#linkedin{
+    height: 7vh;
+    width: 4vw;
+    border-radius: 1000vh;
+}
+
+#instagram{
+    height: 7vh;
+    width: 4vw;
+    border-radius: 1000vh;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+}
+
+.image-content{
+    display: flex;
+    width: fit-content;
+    flex-direction: row;
+    margin: 1px;
+    flex-wrap: wrap;
+}
+
+#Contact-Text{
+    color: rgb(74,83,91);
+    margin: 5px;
+}
+
+#About-Text{
+    color: rgb(74,83,91);
+    margin: 5px;
+}
+
+#Home-Text{
+    color: rgb(74,83,91);
+    margin: 5px;
+}
+
+#Resume-Text{
+    color: rgb(74,83,91);
+    margin: 5px;
+}
+
+#Portfolio-Text{
+    color: rgb(74,83,91);
+    margin: 10px;
+
+}
+
+#Services-Text{
+    color: rgb(74,83,91);
+    margin: 5px;
+}
+
+.aside-footer{
+    display: flex;
+    height: 14.5vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+
+}
+
+#copyright{
+    color: white;
+}
+
+#git{
+    color: white;
+}
+
+#git-Link{
+    padding: 0vh;
+    text-decoration: none;
+}
+
+.image-content-link{
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+    flex-wrap: wrap;
+}
+
+.image-content-link:hover > #Home-Text{
+    text-decoration: blue;
+    color: blue;
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+    flex-wrap: wrap;
+}
+
+.part2{
+    float: left;
+    margin-left: 30vw;
+    height: 500vh;
+    width: 75vw;
+    background-image: url("images/profile-img2.jpg");
+    background-repeat: no-repeat ;
+    background-size: 75vw 100vh  ;
+}
+
+.text-on-image{
+    margin-left: 10vw;
+    margin-top: 10vh;
+}
+
+#name{
+    color: white;
+    font-size: 7vh;
+}
+
+#occupation{
+    color: white;
+}
+
+
